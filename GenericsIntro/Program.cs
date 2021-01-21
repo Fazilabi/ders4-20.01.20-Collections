@@ -10,6 +10,14 @@ namespace GenericsIntro
             isimler2.MyAdd("Fazil");
             isimler2.MyAdd("Murad");
             Console.WriteLine(isimler2.Length);
+            foreach (var item in isimler2.Items)
+            {
+                Console.WriteLine(item);
+            }
+
+
+
+
 
           
             

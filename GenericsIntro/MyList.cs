@@ -26,6 +26,10 @@ namespace GenericsIntro
         {
             get { return items.Length; }
         }
+        public T[] Items
+        {
+            get { return items; }
+        }
 
     }
 }
